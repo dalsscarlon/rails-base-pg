@@ -1,0 +1,30 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and unnecessary tempfiles.
+/log/*
+log/*
+!/log/.keep
+/tmp
+.DS_Store
+.powrc
+.powenv
+.env
+.rbenv-vars
+/vendor/bundle/
+erd.pdf
+
+# TODO Comment out these rules if you are OK with secrets being uploaded to the repo
+config/initializers/secret_token.rb
+config/initializers/byebug.rb
+config/secrets.yml
+
+
+/bin/blockly_data/node_modules/
+/bin/blockly_data/repos/
+/coverage
+public/system
+public/uploads
+public/assets
