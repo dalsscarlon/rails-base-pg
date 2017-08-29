@@ -43,6 +43,17 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  # Gems to create a git hook and verify code style and code smell's
+  gem 'overcommit'
+  gem 'pry'
+  gem 'reek'
+  gem 'rubocop', '~> 0.49.1', require: false
+
+  # Gem to create a backup
+  gem 'seed_dump'
+  # Gem to create  the database schema models pdf
+  gem 'rails-erd'
 end
 
 group :test do
