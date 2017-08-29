@@ -19,7 +19,7 @@ erd.pdf
 # TODO Comment out these rules if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
 config/initializers/byebug.rb
-config/secrets.yml
+.ruby-env
 
 
 /bin/blockly_data/node_modules/
